@@ -1,6 +1,5 @@
 package pageObject;
 
-import java.util.HashMap;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,6 +36,7 @@ public class SearchBar {
 
 			for (WebElement we2 : value) {
 				System.out.println(we1.getText() + " Price " + we2.getText());
+				break;
 
 			}
 		}
